@@ -1,6 +1,6 @@
 {
   "name": "malicius-pdf",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "prueba de libreria con codigo malicioso",
   "main": "dist/index.js",
   "types":"dist/index.d.ts",
