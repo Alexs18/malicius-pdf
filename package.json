@@ -1,18 +1,23 @@
 {
   "name": "malicius-pdf",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.2",
+  "description": "prueba de libreria con codigo malicioso",
+  "main": "dist/index.js",
+  "types":"dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "https://github.com/Alexs18/malicius-pdf"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "init":"npx tsc & node ./dist/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["pdf", "hacking", "test"],
+  "author": "alexis lopez alexlopezdev",
+  "license": "MIT",
   "dependencies": {
     "puppeteer": "^24.31.0"
   },

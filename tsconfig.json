@@ -11,6 +11,8 @@
     "declarationMap": true,
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
+    "moduleResolution": "node",
     "strict": true,
-  }
+  },
+  "include": ["src"]
 }
